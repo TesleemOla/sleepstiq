@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex justify-between w-full items-center">
+    <header className="flex justify-between w-screen items-center">
       <div>
         SleepStiq
       </div>
