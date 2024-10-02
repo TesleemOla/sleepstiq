@@ -24,7 +24,9 @@ export default function RootLayout({
         className={`${poppins} antialiased w-full`}
       >
         <Navbar />
-        {children}
+        <main>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

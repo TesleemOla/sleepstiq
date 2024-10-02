@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Logo } from "../icons";
+import { Logo, Facebook, Twitter, Gplus, LinkedIn } from "../icons";
 
 export default function Footer(){
     return <footer className="bg-primary text-white w-screen sm:w-full">
@@ -36,7 +36,13 @@ export default function Footer(){
             <div className="flex flex-col gap-7 basis-1/6">
             <p className="font-bold text-sm">GET IN TOUCH</p>
             <p className="font-thin text-xs">Feel free to get in touch with us via email</p>   
-            <p className="text-sm font-extrabold">hello@sleepstiq.com</p>         
+            <p className="text-sm font-extrabold">hello@sleepstiq.com</p>
+            <span className="flex">
+                <span className="rounded-round bg-blue-300 p-5 scale-50"><Facebook /></span>
+                <span className="rounded-round bg-blue-300 p-5 scale-50"><Twitter /></span>
+                <span className="rounded-round bg-blue-300 p-5 scale-50"><Gplus /></span>
+                <span className="rounded-round bg-blue-300 p-5 scale-50"><LinkedIn /></span>
+            </span>       
         </div>
         </div>
         

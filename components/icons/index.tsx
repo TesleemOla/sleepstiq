@@ -6,6 +6,11 @@ import LinkedIn from "./linkedin"
 import Twitter from "./twitter"
 import Facebook from "./facebook"
 import Gplus from "./gplus"
+import Google from "./google"
+import BloomBerg from "./bloomberg"
+import Forbes from "./forbes"
+import SleepReview from "./sleepReview"
+import Influence from "./influence"
 
 
 export {
@@ -16,5 +21,10 @@ export {
     Twitter,
     Facebook,
     LinkedIn,
-    Gplus
+    Gplus,
+    Google,
+    BloomBerg,
+    Forbes,
+    SleepReview,
+    Influence
 }
