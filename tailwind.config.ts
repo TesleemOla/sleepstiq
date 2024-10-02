@@ -21,7 +21,7 @@ const config: Config = {
   				foreground: 'hsl(var(--popover-foreground))'
   			},
   			primary: {
-  				DEFAULT: 'hsl(var(--primary))',
+					DEFAULT: 'rgb(18, 48, 91)',
   				foreground: 'hsl(var(--primary-foreground))'
   			},
   			secondary: {
@@ -41,6 +41,7 @@ const config: Config = {
   				foreground: 'hsl(var(--destructive-foreground))'
   			},
   			border: 'hsl(var(--border))',
+			button: "#fc5959",
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
   			chart: {
@@ -55,9 +56,14 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		
+			backgroundImage: {
+				'home-img': 'url("/images/Slider.png")',
+				'about-img': 'url("/images/About.jpg")'
+		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+//   plugins: [require("tailwindcss-animate")],
 };
 export default config;
