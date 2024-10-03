@@ -9,6 +9,7 @@ import Reviews from "./reviews";
 import OurMission from "./OurMission"
 import VisitShop from "./visitShop";
 import OurAmazingStory from "./OurAmazingStory";
+import ProductReviews from "./productReviews"
 
 export {
     Navbar,
@@ -21,5 +22,6 @@ export {
     Reviews,
     OurMission,
     VisitShop,
-    OurAmazingStory
+    OurAmazingStory,
+    ProductReviews
 }

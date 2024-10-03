@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
       </div>
 
-        <div className="flex justify-center place-items-start absolute top-5 right-3" onClick={()=>setIsOpen(!isOpen)}>
+        <div className="flex flex-row-reverse justify-center place-items-start absolute top-5 right-3 bg-white" onClick={()=>setIsOpen(!isOpen)}>
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 focus:outline-none z-10
@@ -47,7 +47,7 @@ const Navbar = () => {
               <Closer />
             )}
           </button>
-          <div className={`${isOpen ? 'block' : 'hidden'} sm:hidden bg-white min-w-52 shadow-slate-400`} id="mobile-menu">
+          <div className={`${isOpen ? 'block' : 'hidden'} sm:hidden  shadow-slate-400  w-2/3`} id="mobile-menu">
         <div className="pb-3 space-y-1 ">
           <CustomLink href="/" mob={true}>Home</CustomLink>
           <CustomLink href="/about" mob={true}>About</CustomLink>

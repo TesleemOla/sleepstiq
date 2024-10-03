@@ -1,5 +1,5 @@
 import { Relax } from "@/components/icons";
-import {ButtonRed, EndorsedBy, OurAmazingStory, OurMission, PromoteBox, Reviews, ShopNow, VisitShop} from "@/components/ui";
+import {ButtonRed, EndorsedBy, OurAmazingStory, OurMission, ProductReviews, PromoteBox, Reviews, ShopNow, VisitShop} from "@/components/ui";
 
 
 
@@ -8,7 +8,7 @@ import {ButtonRed, EndorsedBy, OurAmazingStory, OurMission, PromoteBox, Reviews,
 
 export default function Home() {
   return (
-    <>
+    <section className="text-primary">
       <div className="bg-home-img bg-cover w-full h-screen text-primary flex flex-col gap-5 justify-center items-start p-5 md:p-40">
         <p>
           {"We're here to help you"}
@@ -34,6 +34,7 @@ export default function Home() {
       </div>
       <OurMission />
       <VisitShop />
-    </>
+      <ProductReviews />
+    </section>
   );
 }

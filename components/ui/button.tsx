@@ -1,8 +1,8 @@
 
 
-const ButtonRed = ({data}:{data:string}) => {
+const ButtonRed = ({data, className}:{data:string, className?: string}) => {
   return (
-      <button className="min-w-3/5 block md:w-1/2 bg-button text-white rounded-xl px-3 py-2 ">
+      <button className={`min-w-2/5 block md:w-1/6 bg-button text-white rounded-xl px-3 py-2 my-3 ${className}`}>
           {data}
       </button>
 

@@ -5,10 +5,10 @@ import PromoteBox from "./promoteBox"
 
 const ShopNow = () => {
   return (
-    <section className="sm:flex gap-20 text-center">
+    <section className="sm:flex gap-20 text-center my-5">
         <Image src="/images/product.jpg" width={400} height={700} alt="product" />
         <div>
-            <h1 className="text-primary font-bold sm:font-extrabold text-5xl">About Product</h1>
+            <h1 className="text-primary font-bold sm:font-extrabold text-5xl my-3">About Product</h1>
               <p className="text-primary font-thin text-sm text-left">Our Personal Diffuser is an aromatherapy device that contains a blend of melatonin, lavender, and chamomile.
                  A few breaths of our plant-based essential oil mist will mellow you out, quiet the mind, and lull you to bed.
                 </p>
