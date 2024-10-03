@@ -15,7 +15,7 @@ export default function CustomLink({href,mob=false, children}:PropsWithChildren<
         !mob?<Link href={href} className={` hover:font-extrabold ${path==href && 'font-extrabold'} text-primary px-3 py-2 rounded-md text-sm font-normal`}>
             {children}
         </Link>:
-        <Link href={href} className="block px-3 py-2 rounded-md text-base font-medium">
+        <Link href={href} className="block px-3 py-2 rounded-md text-2xl font-medium">
             {children}
         </Link>
     )

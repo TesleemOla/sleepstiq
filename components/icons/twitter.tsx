@@ -6,7 +6,7 @@ export default function Twitter(){
         </g>
         <defs>
         <filter id="filter0_d_3004_137" x="0.225098" y="0.142822" width="23.8303" height="20.8571" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feFlood floodOpacity="0" result="BackgroundImageFix"/>
         <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
         <feOffset dy="4"/>
         <feGaussianBlur stdDeviation="2"/>

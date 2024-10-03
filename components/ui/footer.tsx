@@ -2,24 +2,24 @@ import Link from "next/link";
 import { Logo, Facebook, Twitter, Gplus, LinkedIn } from "../icons";
 
 export default function Footer(){
-    return <footer className="bg-primary text-white w-screen sm:w-full">
+    return <footer className="bg-primary text-white w-screen sm:w-full px-2">
         <div className="flex justify-center py-5 scale-50 md:scale-100">
             <Logo loc="footer"/>
         </div>
         <div className="flex flex-row gap-5 flex-wrap flex-auto justify-center">
         <div className="flex flex-col gap-7 basis-1/6">
             <p className="font-bold text-sm">COMPANY</p>
-            <Link href="/about" className="font-thin text-xs">About</Link>
-            <Link href="#" className="font-thin text-xs">Blog</Link>
-            <Link href="#" className="font-thin text-xs">Contact</Link>
-            <Link href="#" className="font-thin text-xs">Jobs</Link>
+            <Link href="/about" className="sm:font-thin text-lg sm:text-xs">About</Link>
+            <Link href="#" className="sm:font-thin text-lg sm:text-xs">Blog</Link>
+            <Link href="#" className="sm:font-thin text-lg sm:text-xs">Contact</Link>
+            <Link href="#" className="sm:font-thin text-lg sm:text-xs">Jobs</Link>
         
         </div>
-        <div className="flex flex-col gap-7 basis-1/6">
+        <div className="flex flex-col gap-7 flex-grow">
             <p className="font-bold text-sm">CONTACT</p>
-            <p className="font-thin text-xs">Phone</p>
+            <p className="sm:font-thin text-lg sm:text-xs">Phone</p>
             <p className="text-xs font-extrabold">+234 708 507 3128</p>
-            <p className="font-thin text-xs">Address</p>
+            <p className="sm:font-thin text-lg sm:text-xs">Address</p>
             <p className="text-xs font-extrabold">16, Ogundipe Close, Upston Close</p>
         </div>
         <div className="flex flex-col gap-10 basis-2/6 flex-shrink">
@@ -35,7 +35,7 @@ export default function Footer(){
         </div>
             <div className="flex flex-col gap-7 basis-1/6">
             <p className="font-bold text-sm">GET IN TOUCH</p>
-            <p className="font-thin text-xs">Feel free to get in touch with us via email</p>   
+            <p className="sm:font-thin text-lg sm:text-xs">Feel free to get in touch with us via email</p>   
             <p className="text-sm font-extrabold">hello@sleepstiq.com</p>
             <span className="flex">
                 <span className="rounded-round bg-blue-300 p-5 scale-50"><Facebook /></span>

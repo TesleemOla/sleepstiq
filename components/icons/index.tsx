@@ -11,6 +11,7 @@ import BloomBerg from "./bloomberg"
 import Forbes from "./forbes"
 import SleepReview from "./sleepReview"
 import Influence from "./influence"
+import Arrowright from "./Arrowright"
 
 
 export {
@@ -26,5 +27,6 @@ export {
     BloomBerg,
     Forbes,
     SleepReview,
-    Influence
+    Influence,
+    Arrowright
 }

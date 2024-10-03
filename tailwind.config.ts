@@ -13,8 +13,8 @@ const config: Config = {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
-  				DEFAULT: 'hsl(var(--card))',
-  				foreground: 'hsl(var(--card-foreground))'
+  				DEFAULT: '#fbf9f2',
+  				foreground: '#979797'
   			},
   			popover: {
   				DEFAULT: 'hsl(var(--popover))',
@@ -54,9 +54,7 @@ const config: Config = {
   		},
   		borderRadius: {
   			round: '50%',
-  			md: 'calc(var(--radius) - 2px)',
-  			sm: 'calc(var(--radius) - 4px)'
-  		},
+		},
 		
 			backgroundImage: {
 				'home-img': 'url("/images/Slider.png")',

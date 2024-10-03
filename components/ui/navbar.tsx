@@ -9,7 +9,7 @@ const Navbar = () => {
 
 
   return (
-    <header className="flex items-center font-extrabold sm:bg-transparent">
+    <header className="flex items-center md:gap-40 font-extrabold sm:bg-transparent">
       <Link href="/" className="md:pl-40 z-10">
         <Logo loc="navbar" />
       </Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
       </div>
 
-        <div className="flex justify-center place-items-start absolute top-5 right-3">
+        <div className="flex justify-center place-items-start absolute top-5 right-3" onClick={()=>setIsOpen(!isOpen)}>
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 focus:outline-none z-10
@@ -47,8 +47,8 @@ const Navbar = () => {
               <Closer />
             )}
           </button>
-      <div className={`${isOpen ? 'block' : 'hidden'} sm:hidden`} id="mobile-menu">
-        <div className="pb-3 space-y-1 w-2/4 border-primary">
+          <div className={`${isOpen ? 'block' : 'hidden'} sm:hidden bg-white min-w-52 shadow-slate-400`} id="mobile-menu">
+        <div className="pb-3 space-y-1 ">
           <CustomLink href="/" mob={true}>Home</CustomLink>
           <CustomLink href="/about" mob={true}>About</CustomLink>
           <CustomLink href="/shop" mob={true}>Shop</CustomLink>

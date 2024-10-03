@@ -2,7 +2,7 @@
 
 const ButtonRed = ({data}:{data:string}) => {
   return (
-      <button className="min-w-fit block md:w-1/5 bg-button text-white rounded-xl px-3 py-2 ">
+      <button className="min-w-3/5 block md:w-1/2 bg-button text-white rounded-xl px-3 py-2 ">
           {data}
       </button>
 
