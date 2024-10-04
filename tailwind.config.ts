@@ -41,17 +41,13 @@ const config: Config = {
   				foreground: 'hsl(var(--destructive-foreground))'
   			},
   			border: 'hsl(var(--border))',
-			button: "#fc5959",
-  			input: 'hsl(var(--input))',
-  			ring: 'hsl(var(--ring))',
-  			chart: {
-  				'1': 'hsl(var(--chart-1))',
-  				'2': 'hsl(var(--chart-2))',
-  				'3': 'hsl(var(--chart-3))',
-  				'4': 'hsl(var(--chart-4))',
-  				'5': 'hsl(var(--chart-5))'
-  			}
+			button: "#fc5959",			
   		},
+		  transitionProperty: {
+			  "margin": "margin",
+			  "position": "position"
+		  },
+
   		borderRadius: {
   			round: '50%',
 		},

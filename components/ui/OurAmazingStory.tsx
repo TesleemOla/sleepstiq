@@ -6,7 +6,7 @@ import { Arrowright } from '../icons'
 
 const OurAmazingStory = () => {
   return (
-    <div className="mt-10 sm:pl-40 flex flex-wrap-reverse mx-auto justify-center gap-5">
+    <div className="mt-10 sm:pl-40 flex flex-wrap-reverse mx-2 sm:mx-auto justify-center gap-5">
         <div className="py-4 sm:w-1/3">
             <p className='font-thin text-sm sm:text-xs'>Our Amazing story</p>
             <h3 className="text-4xl lg:text-6xl font-bold mt-5 mb-10"> 10k+ Happy Customers</h3>

@@ -12,6 +12,7 @@ import Forbes from "./forbes"
 import SleepReview from "./sleepReview"
 import Influence from "./influence"
 import Arrowright from "./Arrowright"
+import CheckBox from "./check"
 
 
 export {
@@ -28,5 +29,6 @@ export {
     Forbes,
     SleepReview,
     Influence,
-    Arrowright
+    Arrowright,
+    CheckBox
 }
