@@ -4,7 +4,7 @@ import { CheckBox } from '../icons'
 
 const OurMission = () => {
   return (
-    <section className="text-primary flex flex-wrap justify-between items-center sm:pl-40">
+    <section className="text-primary flex flex-wrap justify-between items-center pl-5 sm:pl-40">
         <div className="w-2/3 sm:w-1/3">
         <h2 className="text-3xl font-extrabold">Our Mission</h2>
         <p className="font-thin text-sm sm:text-xs my-2">
