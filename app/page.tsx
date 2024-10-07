@@ -28,7 +28,7 @@ export default function Home() {
       <Reviews />
       <div className="relative scale-75">
         <ShopNow float={true}/>
-        <span className="absolute left-1/4 bottom-1 bg-white shadow-xl rounded-lg p-4 scale-125">
+        <span className="sm:absolute left-1/4 bottom-1 bg-white shadow-xl rounded-lg p-4 scale-125">
           <PromoteBox />
         </span>
       </div>
